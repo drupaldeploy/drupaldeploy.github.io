@@ -282,9 +282,11 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-our-services,
 #fh5co-about-us,
 #fh5co-features,
+#fh5co-how,
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-reinforcement,
+#fh5co-framework,
 #fh5co-press {
   padding: 7em 0;
 }
@@ -292,9 +294,11 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-our-services,
   #fh5co-about-us,
   #fh5co-features,
+  #fh5co-how,
   #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-reinforcement,
+  #fh5co-framework,
   #fh5co-press {
     padding: 5em 0;
   }
@@ -452,6 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-our-services,
 #fh5co-reinforcement,
+#fh5co-framework,
 #footer{
   background: #F6F6F2;
 }
@@ -530,9 +535,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #444;
 }
 
-#fh5co-features {
-  padding: 7em 0;
-}
 @media screen and (max-width: 768px) {
   #fh5co-features {
     padding: 4em 0;
