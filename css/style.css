@@ -1152,6 +1152,21 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* Hide the mobile fall-back by default */
+#fh5co-how .btn-presentation {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  /* Hide the presentation embed on small screens */
+  #fh5co-how .presentation {
+    display: none;
+  }
+  /* Show the mobile fall-back */
+  #fh5co-how .btn-presentation {
+    display: block;
+  }
+}
+
 /* Mailchimp embedded form */
 #mc-embedded-subscribe-form {
   margin-bottom: 1.5em;
